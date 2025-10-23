@@ -1,3 +1,10 @@
+- name: IROS 2025
+  images:
+    [
+      "images/robotics_conferences_analyzed/authors_contributions_IROS 2025.svg",
+      "images/robotics_conferences_analyzed/university_contributions_IROS 2025.svg",
+      "images/robotics_conferences_analyzed/keywords_contributions_IROS 2025.svg",
+    ]
 - name: ICRA 2025
   images:
     [

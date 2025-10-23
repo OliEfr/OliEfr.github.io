@@ -1,3 +1,12 @@
+- id: dailyart
+  title: "7 Mind-Blowing Projects Where Art Meets Technology"
+  description: "How can humans control robots more intuitively? We explore seven projects in which artists use robots through various AI-enabled human-machine interfaces."
+  webpage: https://www.dailyartmagazine.com/7-projects-art-and-ai-technology/
+  image: dailyart.png
+  venue: Project, 2025
+  authors:
+    - hausdörfer
+    - sq
 - id: sexual_healing_guitar
   title: "Scores and Tabs for Sexual Healing, Marvin Gaye, 1982"
   description: "First Scores and Tabs for the Guitars in Sexual Healing on the Internet."

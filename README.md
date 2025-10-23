@@ -1,4 +1,4 @@
-This site is templated and extended from <a href="https://keunhong.com/">Keunhong Park's</a> website. It is build with [jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) and [bulma](https://bulma.io/), and can be hosted for free on [GitHub Pages](https://pages.github.com/). Feel free to re-use this page. It would be great if you link back to my [homepage](oliver.hausdoerfer.de)!
+This site is templated and extended from <a href="https://keunhong.com/">Keunhong Park's</a> website. It is build with [jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) and [bulma](https://bulma.io/), and can be hosted for free on [GitHub Pages](https://pages.github.com/). Feel free to re-use this pagea nd link back to my [homepage](oliver.hausdoerfer.de)!
 
 ### Adapt the website for your needs
 - change the personal information in `_config.yml`.

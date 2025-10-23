@@ -1,3 +1,11 @@
+- id2: locFromVid
+  title: Coming up
+  description: ..
+  image: locFromVid_before.jpg
+  venue: TBD
+  image_mouseover: locFromVid_after.mp4
+  authors:
+  - hausdörfer
 - id2: crisp
   title: CRISP - Compliant ROS2 Controllers for Learning-Based Manipulation Policies and Teleoperation
   description: C++ Controllers, Python Interfaces, and Gymnasium environments for teleoperation and deploying learning-based policies on manipulators.
@@ -13,20 +21,6 @@
   - Dösch
   - Schuck
   - schoellig
-- id2: agnathax
-  title: Deep reinforcement learning for investigating stretch feedback during swimming of the lamprey
-  description: Lampreys can locomote using only based on local sensory feedback loops. Similar neural network designs show favorable properties for robot learning.
-  image: agnathax_before.png
-  image_border: true
-  image_mouseover: agnathax_after.mp4
-  venue: Bioinspiration & Biomimetics
-  awards: Journal paper (masters' thesis)
-  paper: https://iopscience.iop.org/article/10.1088/1748-3190/adb8b1
-  authors:
-  - hausdörfer
-  - gupta
-  - ijspeert
-  - renj
 - id2: comCompression
   title: Communication Compression for Tensor Parallel LLM Inference
   arxiv: "2411.09510" # Required as string, as liquid ignores trailing zeros https://stackoverflow.com/questions/37862167/trailing-zeros-in-jekyll-liquid
@@ -34,7 +28,7 @@
   image: comComp_before.png
   image_border: true
   venue: NeurIPS, 2024
-  awards: Conference (workshop)
+  awards: Conference workshop
   authors:
   - palmus
   - le
@@ -48,12 +42,26 @@
   image: lap_before.jpg
   image_mouseover: lap_after.mp4
   venue: CoRL, 2024
-  awards: Conference (workshop)
+  awards: Conference workshop
   authors:
   - hausdörfer
   - vonRohr
   - lefort
   - schoellig
+- id2: agnathax
+  title: Deep reinforcement learning for investigating stretch feedback during swimming of the lamprey
+  description: Lampreys can locomote using only based on local sensory feedback loops. Similar neural network designs show favorable properties for robot learning.
+  image: agnathax_before.png
+  image_border: true
+  image_mouseover: agnathax_after.mp4
+  venue: Bioinspiration & Biomimetics
+  awards: Journal (masters' thesis)
+  paper: https://iopscience.iop.org/article/10.1088/1748-3190/adb8b1
+  authors:
+  - hausdörfer
+  - gupta
+  - ijspeert
+  - renj
 - id2: mechanobiology
   title: "Mechanoactivation of Single Stem Cells in Microgels Using a 3D-Printed Stimulation Device"
   venue: Small Methods, 2024
@@ -70,4 +78,4 @@
     - wolfrum
     - özkale
   awards:
-    - "Journal Paper"
+    - "Journal (research internship)"

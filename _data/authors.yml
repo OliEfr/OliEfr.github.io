@@ -126,3 +126,30 @@ martius:
   first_name: Georg
   last_name: Martius
   website: https://scholar.google.com/citations?user=b-JF-UIAAAAJ&hl=en
+schwarz:
+  first_name: Linus
+  last_name: Schwarz
+  website: https://www.linkedin.com/in/linus-schwarz/
+marko:
+  first_name: Gabor
+  last_name: Marko
+  website: https://www.linkedin.com/in/gabor-marko1/
+dietz:
+  first_name: Christian
+  last_name: Dietz
+  website: https://scholar.google.com/citations?user=8izGRboAAAAJ&hl=de
+claas:
+  first_name: Timo
+  last_name: Claas
+  website: https://clsti.github.io/
+hofer:
+  first_name: Luka
+  last_name: Hofer
+li:
+  first_name: Jim Yun-Jin
+  last_name: Li
+  website: https://yunjinli.github.io/
+hechtl:
+  first_name: Johannes
+  last_name: Hechtl
+  website: https://scholar.google.com/citations?user=X9hzFUoAAAAJ&hl=de

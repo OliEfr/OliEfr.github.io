@@ -1,8 +1,24 @@
+- id2: locomposition
+  title: "LoComposition: Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors"
+  description: Functionally decomposing locomotion into constraints, energy-efficiency, task reward and perception enables efficient locomotion without explicit gait priors.
+  image: locomposition_before.jpg
+  image_mouseover: locomposition_after.mp4
+  venue: Submitted
+  project_page: https://sites.google.com/view/locomposition
+  arxiv: "2606.15896"
+  authors:
+  - kordos
+  - franz
+  - rappenecker
+  - hausdörfer
+  - schoellig
+  - kolev
+  - martius
 - id2: locFromVid
   title: Coming up
   description: ..
   image: locFromVid_before.jpg
-  venue: TBD
+  venue: Submitted
   image_mouseover: locFromVid_after.mp4
   authors:
   - hausdörfer
@@ -10,7 +26,8 @@
   title: CRISP - Compliant ROS2 Controllers for Learning-Based Manipulation Policies and Teleoperation
   description: C++ Controllers, Python Interfaces, and Gymnasium environments for teleoperation and deploying learning-based policies on manipulators.
   image: CRISP.png
-  venue: TBD
+  venue: IEEE RA-P, 2026
+  awards: Journal
   project_page: https://utiasdsl.github.io/crisp_controllers/
   image_mouseover: crisp_after.mp4
   paper: https://arxiv.org/abs/2509.06819
@@ -28,7 +45,7 @@
   image: comComp_before.png
   image_border: true
   venue: NeurIPS, 2024
-  awards: Conference workshop
+  awards: Workshop
   authors:
   - palmus
   - le
@@ -42,7 +59,7 @@
   image: lap_before.jpg
   image_mouseover: lap_after.mp4
   venue: CoRL, 2024
-  awards: Conference workshop
+  awards: Workshop
   authors:
   - hausdörfer
   - vonRohr
@@ -55,7 +72,7 @@
   image_border: true
   image_mouseover: agnathax_after.mp4
   venue: Bioinspiration & Biomimetics
-  awards: Journal (masters' thesis)
+  awards: Journal
   paper: https://iopscience.iop.org/article/10.1088/1748-3190/adb8b1
   authors:
   - hausdörfer
@@ -78,4 +95,4 @@
     - wolfrum
     - özkale
   awards:
-    - "Journal (research internship)"
+    - "Journal"

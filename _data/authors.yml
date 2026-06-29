@@ -106,3 +106,23 @@ sq:
   first_name: SiQi
   last_name: Zhou
   website: https://siqizhou.com/
+kordos:
+  first_name: Loukas
+  last_name: Kordos
+franz:
+  first_name: Leonard
+  middle_name: T.
+  last_name: Franz
+  website: https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/distributed-intelligence/team/leonard-franz/
+rappenecker:
+  first_name: Simon
+  last_name: Rappenecker
+  website: https://rappenecker.me/
+kolev:
+  first_name: Pavel
+  last_name: Kolev
+  website: https://pavelkolev.github.io/
+martius:
+  first_name: Georg
+  last_name: Martius
+  website: https://scholar.google.com/citations?user=b-JF-UIAAAAJ&hl=en

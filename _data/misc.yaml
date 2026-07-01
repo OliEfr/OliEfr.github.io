@@ -7,7 +7,7 @@
 - venue: Conference, 2024
   title: Young scientist award at KIRO 2024
   description: KIRO2024 was the first german AI-in-robotics conference
-  webpage: https://www.mirmi.tum.de/mirmi/aktuelles/article/bmbf-vergibt-nachwuchswissenschaftspreis-an-tum-forschenden/
+  webpage: https://www.mirmi.tum.de/en/mirmi/news/article/bmbf-vergibt-nachwuchswissenschaftspreis-an-tum-forschenden/
   image: misc/KIRO2024_before.png
   image_mouseover: misc/KIRO2024_after.png
 - venue: Hackathon, 2023
@@ -23,9 +23,12 @@
 - venue: Hackathon, 2019
   title: Winning the bonding Engineering Competition
   description:
-- venue: Hackathon, 2019 
+  webpage: https://bonding.de/en/engineering-competition/home
+- venue: Hackathon, 2019
   title: Winning the Fiction2Science Hackathon Nr. 2
   description:
+  webpage: https://www.youtube.com/watch?v=tf8Lie4NyYQ
 - venue: Hackathon, 2019
   title: Winning the Fiction2Science Hackathon Nr. 1
   description:
+  webpage: https://www.youtube.com/watch?v=X0arHjwugNM

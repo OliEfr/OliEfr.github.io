@@ -37,6 +37,7 @@
           <a class="{% if author.website%}''{%- else -%}disable-link{% endif %}" href="{{ author.website}}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
           }}</a>
             {%- endif -%}
+            {%- if publication.equal_contrib and publication.equal_contrib contains author_id -%}*{%- endif -%}
             {% if forloop.last == false %},{% endif %}
         </span>
         {%- endfor -%}

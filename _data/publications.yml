@@ -6,6 +6,9 @@
   venue: Submitted
   project_page: https://learnsyslab.github.io/data_and_learning_where_it_matters/
   paper: https://learnsyslab.github.io/data_and_learning_where_it_matters/paper.pdf
+  equal_contrib:
+  - hausdörfer
+  - schwarz
   authors:
   - hausdörfer
   - schwarz

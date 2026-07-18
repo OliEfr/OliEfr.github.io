@@ -1,3 +1,27 @@
+- id2: egohtr
+  title: "EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal"
+  project_page: https://egohtr.github.io/
+  arxiv: "2607.13472"
+  description: 55 scene-aligned 4D human motion sequence dataset from egocentric wearables for training perceptive humanoid locomotion policies on challenging terrain.
+  image: egohtr_before.jpg
+  image_mouseover: egohtr_after.mp4
+  venue: arXiv, 2026
+  video: https://www.youtube.com/watch?v=WhnJHEhy6Qc
+  authors:
+  - brandes
+  - sajelian
+  - patel
+  - hollidt
+  - chenhaoLi
+  - heyrman
+  - hausdörfer
+  - kaufmann
+  - xiwang
+  - frey
+  - schoellig
+  - holz
+  - pollefeys
+  - hutter
 - id2: dataLearning
   title: "Data and Learning Where it Matters for Contact-Rich Manipulation"
   description: Expensive robot data for the contact-rich segment combined with robot-data-free methods for free-space motion enables success rates of >95% and robustness to OOD.

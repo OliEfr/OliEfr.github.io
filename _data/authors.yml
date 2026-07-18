@@ -153,3 +153,50 @@ hechtl:
   first_name: Johannes
   last_name: Hechtl
   website: https://scholar.google.com/citations?user=X9hzFUoAAAAJ&hl=de
+brandes:
+  first_name: Alex
+  last_name: Brandes
+sajelian:
+  first_name: Haig Conti Georges
+  last_name: Sajelian
+  website: https://sajelian.github.io/
+patel:
+  first_name: Manthan
+  last_name: Patel
+  website: https://scholar.google.com/citations?user=7ElOFaUAAAAJ&hl=en
+hollidt:
+  first_name: Dominik
+  last_name: Hollidt
+  website: https://scholar.google.com/citations?user=S2368c0AAAAJ&hl=en
+chenhaoLi:
+  first_name: Chenhao
+  last_name: Li
+  website: https://scholar.google.com/citations?user=kw1-DxQAAAAJ&hl=en
+heyrman:
+  first_name: Matthias
+  last_name: Heyrman
+  website: https://mheyrman.github.io
+kaufmann:
+  first_name: Manuel
+  last_name: Kaufmann
+  website: https://scholar.google.com/citations?user=25nKBNAAAAAJ&hl=de
+xiwang:
+  first_name: Xi
+  last_name: Wang
+  website: https://scholar.google.com/citations?user=IYUPj9MAAAAJ&hl=en
+frey:
+  first_name: Jonas
+  last_name: Frey
+  website: https://scholar.google.com/citations?user=Ef13BU4AAAAJ&hl=en
+holz:
+  first_name: Christian
+  last_name: Holz
+  website: https://scholar.google.com/citations?user=OfXP9jMAAAAJ&hl=en
+pollefeys:
+  first_name: Marc
+  last_name: Pollefeys
+  website: https://scholar.google.com/citations?user=YYH0BjEAAAAJ&hl=en
+hutter:
+  first_name: Marco
+  last_name: Hutter
+  website: https://scholar.google.com/citations?user=DO3quJYAAAAJ&hl=en

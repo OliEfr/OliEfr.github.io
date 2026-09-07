@@ -5,7 +5,8 @@
   description: 55 scene-aligned 4D human motion sequence dataset from egocentric wearables for training perceptive humanoid locomotion policies on challenging terrain.
   image: egohtr_before.jpg
   image_mouseover: egohtr_after.mp4
-  venue: arXiv, 2026
+  venue: CoRL, 2026
+  awards: Conference
   video: https://www.youtube.com/watch?v=WhnJHEhy6Qc
   authors:
   - brandes
@@ -49,7 +50,8 @@
   description: Functionally decomposing locomotion into constraints, energy-efficiency, task reward and perception enables efficient locomotion without explicit gait priors.
   image: locomposition_before.jpg
   image_mouseover: locomposition_after.mp4
-  venue: Submitted
+  venue: CoRL, 2026
+  awards: Conference
   project_page: https://sites.google.com/view/locomposition
   arxiv: "2606.15896"
   authors:

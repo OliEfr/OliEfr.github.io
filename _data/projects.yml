@@ -1,3 +1,11 @@
+- id: dailyart_diagrams
+  title: "5 Beautiful Diagrams That Visualize Art History"
+  description: "Art history diagrams that organize the historic movements and trends in art, from Barr’s 1936 chart to a data-driven map of 375 movements and 55,000 artists."
+  webpage: https://www.dailyartmagazine.com/5-diagrams-visualize-art-history/
+  image: dailyart_diagrams.png
+  venue: Blog, 2026
+  authors:
+    - hausdörfer
 - id: dailyart
   title: "7 Mind-Blowing Projects Where Art Meets Technology"
   description: "How can humans control robots more intuitively? We explore seven projects in which artists use robots through various AI-enabled human-machine interfaces."

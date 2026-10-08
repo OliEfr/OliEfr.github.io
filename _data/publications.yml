@@ -86,6 +86,20 @@
   - Dösch
   - Schuck
   - schoellig
+- id2: latentActionPriors
+  title: Latent Action Priors From a Single Gait Cycle Demonstration for Online Imitation Learning
+  project_page: https://sites.google.com/view/latent-action-priors
+  arxiv: 2410.03246
+  description: A single gait cycle of expert demonstration significantly improves achieved reward and visual appearance of the learned gait in locomotion tasks - even for transfer tasks.
+  image: lap_before.jpg
+  image_mouseover: lap_after.mp4
+  venue: Humanoids, 2026
+  awards: Conference
+  authors:
+  - hausdörfer
+  - vonRohr
+  - lefort
+  - schoellig
 - id2: comCompression
   title: Communication Compression for Tensor Parallel LLM Inference
   arxiv: "2411.09510" # Required as string, as liquid ignores trailing zeros https://stackoverflow.com/questions/37862167/trailing-zeros-in-jekyll-liquid
@@ -99,20 +113,6 @@
   - le
   - hausdörfer
   - verma
-- id2: latentActionPriors
-  title: Latent Action Priors From a Single Gait Cycle Demonstration for Online Imitation Learning
-  project_page: https://sites.google.com/view/latent-action-priors
-  arxiv: 2410.03246
-  description: A single gait cycle of expert demonstration significantly improves achieved reward and visual appearance of the learned gait in locomotion tasks - even for transfer tasks.
-  image: lap_before.jpg
-  image_mouseover: lap_after.mp4
-  venue: CoRL, 2024
-  awards: Workshop
-  authors:
-  - hausdörfer
-  - vonRohr
-  - lefort
-  - schoellig
 - id2: agnathax
   title: Deep reinforcement learning for investigating stretch feedback during swimming of the lamprey
   description: Lampreys can locomote using only based on local sensory feedback loops. Similar neural network designs show favorable properties for robot learning.

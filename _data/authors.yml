@@ -31,9 +31,6 @@ schuck:
   first_name: Martin
   last_name: Schuck
   website: https://amacati.github.io/
-lefort:
-  first_name: Eric
-  last_name: Lefort
 naimer:
   first_name: Jack
   last_name: Naimer
@@ -58,7 +55,7 @@ vonRohr:
   last_name: von Rohr
   website: https://thisisalex.de/
 lefort:
-  first_name: Èric
+  first_name: Éric
   last_name: Lefort
 schoellig:
   first_name: Angela
@@ -140,7 +137,7 @@ dietz:
   website: https://scholar.google.com/citations?user=8izGRboAAAAJ&hl=de
 claas:
   first_name: Timo
-  last_name: Claas
+  last_name: Class
   website: https://clsti.github.io/
 hofer:
   first_name: Luka
@@ -200,3 +197,15 @@ hutter:
   first_name: Marco
   last_name: Hutter
   website: https://scholar.google.com/citations?user=DO3quJYAAAAJ&hl=en
+minzenmay:
+  first_name: Felix
+  last_name: Minzenmay
+majd:
+  first_name: Mani
+  last_name: Majd
+christof:
+  first_name: Maximilian P.
+  last_name: Christof
+shiyuanZhang:
+  first_name: Shiyuan
+  last_name: Zhang

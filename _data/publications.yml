@@ -1,3 +1,23 @@
+- id2: multiViewLAM
+  title: "Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos"
+  description: Pretraining latent action models on synchronized multi-view videos recovers 6D actions that single views miss, enabling skill transfer from other robots and human hands.
+  image: multiViewLAM_before.jpg
+  image_mouseover: multiViewLAM_after.mp4
+  venue: Submitted
+  project_page: https://learnsyslab.github.io/multiview_latent_action_pretraining/
+  equal_contrib:
+  - hausdörfer
+  - minzenmay
+  equal_contrib2:
+  - majd
+  - christof
+  authors:
+  - hausdörfer
+  - minzenmay
+  - majd
+  - christof
+  - shiyuanZhang
+  - schoellig
 - id2: egohtr
   title: "EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal"
   project_page: https://egohtr.github.io/
@@ -7,7 +27,7 @@
   image_mouseover: egohtr_after.mp4
   venue: CoRL, 2026
   awards: Conference
-  video: https://www.youtube.com/watch?v=WhnJHEhy6Qc
+  video: https://www.youtube.com/watch?v=9K8voGp2Xw0
   authors:
   - brandes
   - sajelian
@@ -24,13 +44,13 @@
   - pollefeys
   - hutter
 - id2: dataLearning
-  title: "Data and Learning Where it Matters for Contact-Rich Manipulation"
+  title: "Learning Where it Matters: Autonomous Data Collection and Offline Reinforcement Learning for Local Contact-Rich Manipulation"
   description: Expensive robot data for the contact-rich segment combined with robot-data-free methods for free-space motion enables success rates of >95% and robustness to OOD.
   image: dataLearning_before.jpg
   image_mouseover: dataLearning_after.mp4
   venue: Submitted
   project_page: https://learnsyslab.github.io/data_and_learning_where_it_matters/
-  paper: https://learnsyslab.github.io/data_and_learning_where_it_matters/paper.pdf
+  arxiv: "2607.15982"
   equal_contrib:
   - hausdörfer
   - schwarz
@@ -87,9 +107,9 @@
   - Schuck
   - schoellig
 - id2: latentActionPriors
-  title: Latent Action Priors From a Single Gait Cycle Demonstration for Online Imitation Learning
+  title: Synergistic Action and Style Priors for Learning Legged Locomotion
   project_page: https://sites.google.com/view/latent-action-priors
-  arxiv: 2410.03246
+  arxiv: "2410.03246"
   description: A single gait cycle of expert demonstration significantly improves achieved reward and visual appearance of the learned gait in locomotion tasks - even for transfer tasks.
   image: lap_before.jpg
   image_mouseover: lap_after.mp4

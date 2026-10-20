@@ -38,6 +38,7 @@
           }}</a>
             {%- endif -%}
             {%- if publication.equal_contrib and publication.equal_contrib contains author_id -%}*{%- endif -%}
+            {%- if publication.equal_contrib2 and publication.equal_contrib2 contains author_id -%}&dagger;{%- endif -%}
             {% if forloop.last == false %},{% endif %}
         </span>
         {%- endfor -%}

@@ -1,6 +1,6 @@
 - id2: multiViewLAM
   title: "Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos"
-  description: Pretraining latent action models on synchronized multi-view videos recovers 6D actions that single views miss, enabling skill transfer from other robots and human hands.
+  description: Pretraining latent action models on synchronized multi-view videos recovers 6D actions that single views miss, raising hardware success rate from 21% (single-view) to 46%, and enabling skill transfer from other robots and human hands.
   image: multiViewLAM_before.jpg
   image_mouseover: multiViewLAM_after.mp4
   venue: Submitted

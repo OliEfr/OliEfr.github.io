@@ -5,6 +5,7 @@
   image_mouseover: multiViewLAM_after.mp4
   venue: Submitted
   project_page: https://learnsyslab.github.io/multiview_latent_action_pretraining/
+  arxiv: "2610.27794"
   equal_contrib:
   - hausdörfer
   - minzenmay
@@ -98,7 +99,7 @@
   awards: Journal
   project_page: https://utiasdsl.github.io/crisp_controllers/
   image_mouseover: crisp_after.mp4
-  paper: https://arxiv.org/abs/2509.06819
+  arxiv: "2509.06819"
   authors:
   - Pro
   - hausdörfer

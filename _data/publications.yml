@@ -1,3 +1,24 @@
+- id2: lbcTutorial
+  title: "A Decade of Learning-Based Control: From Theoretic Foundations to Practical Deployment"
+  description: Tutorial marking ten years of CDC Learning-Based Control sessions, covering stability and safety foundations, dynamics learning, data-driven control, and RL/IL/BO, with open-source examples.
+  image: lbcTutorial_before.jpg
+  image_border: true
+  venue: CDC, 2026
+  awards: Tutorial
+  project_page: https://learning-based-control.github.io/tutorial/
+  arxiv: "2610.29187"
+  authors:
+  - schoellig
+  - mueller
+  - trimpe
+  - zeilinger
+  - anand
+  - carron
+  - hausdörfer
+  - lopez
+  - solowjow
+  - haochengZhao
+  - sq
 - id2: multiViewLAM
   title: "Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos"
   description: Multi-view latent action pretraining recovers 6D actions that single views miss, lifting hardware success rate from 21% to 46% and enabling transfer from human videos.

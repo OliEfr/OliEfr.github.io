@@ -209,3 +209,35 @@ christof:
 shiyuanZhang:
   first_name: Shiyuan
   last_name: Zhang
+mueller:
+  first_name: Matthias A.
+  last_name: Müller
+  website: https://www.irt.uni-hannover.de/en/mueller
+trimpe:
+  first_name: Sebastian
+  last_name: Trimpe
+  website: https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jlolt/prof-sebastian-trimpe/?lidx=1
+zeilinger:
+  first_name: Melanie N.
+  last_name: Zeilinger
+  website: https://idsc.ethz.ch/research-zeilinger/people/person-detail.zeilinger.html
+anand:
+  first_name: Mahathi
+  last_name: Anand
+  website: https://mahathi-anand.github.io/
+carron:
+  first_name: Andrea
+  last_name: Carron
+  website: https://andreacarron.github.io/
+lopez:
+  first_name: Victor G.
+  last_name: Lopez
+  website: https://www.irt.uni-hannover.de/en/lopez
+solowjow:
+  first_name: Friedrich
+  last_name: Solowjow
+  website: https://www.dsme.rwth-aachen.de/cms/dsme/das-institut/team/~jptyz/friedrich-solowjow/?lidx=1
+haochengZhao:
+  first_name: Haocheng
+  last_name: Zhao
+  website: https://jonathanzhc.github.io/

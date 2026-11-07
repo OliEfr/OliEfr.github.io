@@ -49,7 +49,7 @@
         <span class="publication-venue-emph">{{ award }}<span>
             {% endfor %}
       </div>
-      <p class="publication-description">{{ publication.description | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+      {% capture links %}
       <div class="publication-links buttons field has-addons">
         {% if publication.project_page %}
         <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
@@ -95,6 +95,24 @@
         </a>
         {% endif %}
       </div>
+      {% endcapture %}
+      {% if publication.description_simple %}
+      <div class="description-card">
+        <div class="description-card-header">
+          <div class="description-toggle">
+            <button class="is-active" data-mode="simple">Simple</button>
+            <button data-mode="expert">Expert</button>
+          </div>
+          {{ links }}
+        </div>
+      {% endif %}
+      <p class="publication-description {% if publication.description_simple %}description-expert{% endif %}">{{ publication.description | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+      {% if publication.description_simple %}
+        <p class="publication-description description-simple">{{ publication.description_simple | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+      </div>
+      {% else %}
+      {{ links }}
+      {% endif %}
     </div>
   </div>
 </div>

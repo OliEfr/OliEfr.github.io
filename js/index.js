@@ -38,6 +38,17 @@ $(document).ready(function() {
     });
 
 
+    // Publications: each switch flips all descriptions between the expert and the simple text.
+    // Texts above change length, so keep the clicked switch where it was on screen.
+    $('.description-toggle button').click(function() {
+        const mode = $(this).data('mode');
+        const top = this.getBoundingClientRect().top;
+        $('.description-toggle button').removeClass('is-active').filter('[data-mode="' + mode + '"]').addClass('is-active');
+        $('body').toggleClass('expert-mode', mode === 'expert');
+        window.scrollBy(0, this.getBoundingClientRect().top - top);
+    });
+
+
     async function fetchCommits() {
         const response = await fetch(`https://api.github.com/repos/${github_username}/${github_repository}/commits`);
 

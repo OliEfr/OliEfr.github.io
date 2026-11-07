@@ -1,6 +1,7 @@
 - id2: lbcTutorial
   title: "A Decade of Learning-Based Control: From Theoretic Foundations to Practical Deployment"
   description: Tutorial marking ten years of CDC Learning-Based Control sessions, covering stability and safety foundations, dynamics learning, data-driven control, and RL/IL/BO, with open-source examples.
+  description_simple: An introductory guide, marking ten years of dedicated conference sessions, on how robots and other machines can learn from data and experience while staying stable and safe, with open-source code.
   image: lbcTutorial_before.jpg
   venue: CDC, 2026
   awards: Conference
@@ -20,7 +21,8 @@
   - sq
 - id2: multiViewLAM
   title: "Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos"
-  description: Multi-view latent action pretraining recovers 6D actions that single views miss, lifting hardware success rate from 21% to 46% and enabling transfer from human videos.
+  description: Multi-view latent action pretraining improves 6D action decodability by 17% over single-view, outperforming 100× more single-view data, lifting hardware success from 21% to 46%. We demonstrate zero-shot behavior transfer from human videos.
+  description_simple: Robots can learn skills from videos of other robots or human hands. Filming each video from two cameras instead of one shows movements a single camera misses, more than doubling real-robot success. It shows which data are most useful for robot learning.
   image: multiViewLAM_before.jpg
   image_mouseover: multiViewLAM_after.mp4
   venue: Submitted
@@ -44,6 +46,7 @@
   project_page: https://egohtr.github.io/
   arxiv: "2607.13472"
   description: 55 scene-aligned 4D human motion sequence dataset from egocentric wearables for training perceptive humanoid locomotion policies on challenging terrain.
+  description_simple: 55 recordings of people climbing, crawling and balancing over obstacles, captured with wearable sensors and lined up with a 3D scan of the environment, to teach humanoids to cross rough terrain.
   image: egohtr_before.jpg
   image_mouseover: egohtr_after.mp4
   venue: CoRL, 2026
@@ -66,7 +69,8 @@
   - hutter
 - id2: dataLearning
   title: "Learning Where it Matters: Autonomous Data Collection and Offline Reinforcement Learning for Local Contact-Rich Manipulation"
-  description: Expensive robot data for the contact-rich segment combined with robot-data-free methods for free-space motion enables success rates of >95% and robustness to OOD.
+  description: From a single demonstration, the robot autonomously collects 3–5× more episodes than teleoperation in the same time. Offline RL combined with motion planning then reaches 96% success, without any online policy updates.
+  description_simple: The robot learns the challenging part of the task on its own, while off-the-shelf tools handle the rest. This reliably solves precise assembly tasks, with over 95% success. It even works well for new scenes.
   image: dataLearning_before.jpg
   image_mouseover: dataLearning_after.mp4
   venue: Submitted
@@ -88,7 +92,8 @@
   - schoellig
 - id2: locomposition
   title: "LoComposition: Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors"
-  description: Functionally decomposing locomotion into constraints, energy-efficiency, task reward and perception enables efficient locomotion without explicit gait priors.
+  description: Functionally decomposing locomotion into task reward, constraints, energy minimization and perception yields terrain-adaptive gaits without explicit gait priors, cutting cost of transport by 56% and limit violations by 96%, with zero-shot transfer to a Go2.
+  description_simple: Splitting a robot dog's training into separate jobs (follow commands, stay within its physical limits, save energy, see the terrain ahead) lets it find an efficient trot by itself, without hand-engineered specifications.
   image: locomposition_before.jpg
   image_mouseover: locomposition_after.mp4
   venue: CoRL, 2026
@@ -114,6 +119,7 @@
 - id2: crisp
   title: CRISP - Compliant ROS2 Controllers for Learning-Based Manipulation Policies and Teleoperation
   description: C++ Controllers, Python Interfaces, and Gymnasium environments for teleoperation and deploying learning-based policies on manipulators.
+  description_simple: A software that lets different robot arms smoothly follow commands from AI models. It also provides tool to remote-control the arm and train those models. CRISP enables AI training and deployment on manipulators.
   image: CRISP.png
   venue: IEEE RA-P, 2026
   awards: Journal
@@ -133,6 +139,7 @@
   project_page: https://sites.google.com/view/latent-action-priors
   arxiv: "2410.03246"
   description: A single gait cycle of expert demonstration significantly improves achieved reward and visual appearance of the learned gait in locomotion tasks - even for transfer tasks.
+  description_simple: An LLM can generate one short walking example, which helps a legged robot learn to walk better and more naturally — even in situations the example never covered, like steering or rough ground. This allows non-experts to easily program walking robots.
   image: lap_before.jpg
   image_mouseover: lap_after.mp4
   venue: Humanoids, 2026
@@ -146,6 +153,7 @@
   title: Communication Compression for Tensor Parallel LLM Inference
   arxiv: "2411.09510" # Required as string, as liquid ignores trailing zeros https://stackoverflow.com/questions/37862167/trailing-zeros-in-jekyll-liquid
   description: Inter-GPU communication compression for Large Language Models leads to up to 2x reduction of time-to-first-token with negligible model performance degradation.
+  description_simple: Big AI models are split across multiple GPUs that constantly exchange data. By compressing this data 3.5–4.5x, we make them start answering up to twice as fast, with almost no loss in quality.
   image: comComp_before.png
   venue: NeurIPS, 2024
   awards: Workshop
@@ -156,7 +164,8 @@
   - verma
 - id2: agnathax
   title: Deep reinforcement learning for investigating stretch feedback during swimming of the lamprey
-  description: Lampreys can locomote using only based on local sensory feedback loops. Similar neural network designs show favorable properties for robot learning.
+  description: In a simulated lamprey robot without direct inter-segmental coupling, stretch feedback learned via deep RL coordinates swimming. Local, caudally directed, stretch-rate information proves key, and weight-shared local networks learn 2–3× faster and more consistently.
+  description_simple: We use robots to investigate how animals like the eel-like lamprey move. With biologically inspired feedback, where each body section senses only how its neighbors bend, the robot learns faster and more reliably.
   image: agnathax_before.png
   image_mouseover: agnathax_after.mp4
   venue: Bioinspiration & Biomimetics, 2025
@@ -171,6 +180,7 @@
   title: "Mechanoactivation of Single Stem Cells in Microgels Using a 3D-Printed Stimulation Device"
   venue: Small Methods, 2024
   description: "3D-printed chip for mechanoactivation at single-cell level to study intracellular calcium signaling and translocation."
+  description_simple: A 3D-printed chip that squeezes many stem cells at once, each tucked into its own tiny gel bead, so we can watch under the microscope how single cells sense and respond to pressure. This could help make stem-cell therapies, such as repairing bone or cartilage, more effective.
   paper: https://onlinelibrary.wiley.com/doi/10.1002/smtd.202400272
   image: mechanobiology_before.jpg
   image_mouseover: cells_after.mp4

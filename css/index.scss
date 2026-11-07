@@ -3,6 +3,43 @@
 
 @import "base";
 
+// Warm white theme, after keunhong.com.
+$warm-page: #faf9f5;
+$warm-surface: #f3f1ea; // navbar, footer, light buttons
+$warm-line: #e8e4d9;    // dividers and hover states
+
+html {
+    background-color: $warm-page;
+}
+
+.navbar.is-light,
+.footer {
+    background-color: $warm-surface;
+}
+
+.navbar.is-light .navbar-end > a.navbar-item:hover,
+.navbar.is-light .navbar-end > a.navbar-item:focus {
+    background-color: $warm-line;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        background-color: $warm-surface;
+    }
+}
+
+.button.is-light {
+    background-color: $warm-surface;
+
+    &:hover {
+        background-color: $warm-line;
+    }
+}
+
+hr {
+    background-color: $warm-line;
+}
+
 .title {
     font-family: 'Google Sans';
     font-weight: 700;

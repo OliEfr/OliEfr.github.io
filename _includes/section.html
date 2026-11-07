@@ -1,6 +1,6 @@
 <div class="publication-block columns">
-  <div class="column is-2">
-    <div class="publication-image {% if publication.image_mouseover %}publication-mousecell{% endif %}">
+  <div class="column publication-thumb">
+    <div class="publication-image {% if publication.image %}has-image{% endif %} {% if publication.image_mouseover %}publication-mousecell{% endif %}">
       {% if publication.image_mouseover contains "mp4" %}
       <video poster="./images/{{ publication.image }}" autoplay preload playsinline class="" height="100%" loop muted width="100%">
         <source src="./images/{{ publication.image_mouseover }}" type="video/mp4">

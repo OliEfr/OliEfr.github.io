@@ -31,6 +31,9 @@ github_username: OliEfr
 github_repository: OliEfr.github.io
 linkedin_name: ohausdoerfer
 google_scholar: -NHoohwAAAAJ
+# Shared Etherpad shown at the top of the page; remove to hide it.
+# On yopad.eu the -365days suffix keeps the pad for a year of inactivity.
+scratchpad_url: https://yopad.eu/p/oliver-hausdoerfer-scratchpad-365days
 #google_analytics: G-MFWSBLRKG0
 
 # Build settings

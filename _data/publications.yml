@@ -21,7 +21,7 @@
   - sq
 - id2: multiViewLAM
   title: "Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos"
-  description: Multi-view latent action pretraining improves 6D action decodability by 17% over single-view, outperforming 100× more single-view data, lifting hardware success from 21% to 46%. We demonstrate zero-shot behavior transfer from human videos.
+  description: Multi-view latent action pretraining improves 6D action decodability by 17% over single-view, outperforming 100× more single-view data, and lifts hardware success from 21% to 46%. We demonstrate zero-shot behavior transfer from human videos.
   description_simple: Robots can learn skills from videos of other robots or human hands. Filming each video from two cameras instead of one shows movements a single camera misses, more than doubling real-robot success. It shows which data are most useful for robot learning.
   image: multiViewLAM_before.jpg
   image_mouseover: multiViewLAM_after.mp4

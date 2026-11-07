@@ -69,7 +69,7 @@
   - hutter
 - id2: dataLearning
   title: "Learning Where it Matters: Autonomous Data Collection and Offline Reinforcement Learning for Local Contact-Rich Manipulation"
-  description: From a single demonstration, the robot autonomously collects 3–5× more episodes than teleoperation in the same time. Offline RL combined with motion planning then reaches 96% success, without any online policy updates.
+  description: Autonomous data collection in the contact-rich segment yields 3–5× more data and better data coverage than teleoperation. Combining this data with offline RL and motion planning for free-space motion yields 96% success, vs. 37% for end-to-end learning from teleoperation.
   description_simple: The robot learns the challenging part of the task on its own, while off-the-shelf tools handle the rest. This reliably solves precise assembly tasks, with over 95% success. It even works well for new scenes.
   image: dataLearning_before.jpg
   image_mouseover: dataLearning_after.mp4

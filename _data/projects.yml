@@ -42,7 +42,6 @@
   description:
   webpage: https://oliver.hausdoerfer.de/robotics_conferences_analyzed
   image: Analyzing_robotics_conferences.png
-  image_border: true
   authors:
     - hausdörfer
 - id: tufast
@@ -51,7 +50,6 @@
   description: Teaching and studying tool for TU Dresden with 3500 users. Awarded with the german [Digital Changemaker Award](https://www.stifterverband.org/digitalchangemaker-accelerator).
   webpage: https://tu-fast.de/
   image: TUfast.png
-  image_border: true
   authors:
   - hausdörfer
   - guderian

@@ -2,7 +2,6 @@
   title: "A Decade of Learning-Based Control: From Theoretic Foundations to Practical Deployment"
   description: Tutorial marking ten years of CDC Learning-Based Control sessions, covering stability and safety foundations, dynamics learning, data-driven control, and RL/IL/BO, with open-source examples.
   image: lbcTutorial_before.jpg
-  image_border: true
   venue: CDC, 2026
   awards: Conference
   project_page: https://learning-based-control.github.io/tutorial/
@@ -148,7 +147,6 @@
   arxiv: "2411.09510" # Required as string, as liquid ignores trailing zeros https://stackoverflow.com/questions/37862167/trailing-zeros-in-jekyll-liquid
   description: Inter-GPU communication compression for Large Language Models leads to up to 2x reduction of time-to-first-token with negligible model performance degradation.
   image: comComp_before.png
-  image_border: true
   venue: NeurIPS, 2024
   awards: Workshop
   authors:
@@ -160,7 +158,6 @@
   title: Deep reinforcement learning for investigating stretch feedback during swimming of the lamprey
   description: Lampreys can locomote using only based on local sensory feedback loops. Similar neural network designs show favorable properties for robot learning.
   image: agnathax_before.png
-  image_border: true
   image_mouseover: agnathax_after.mp4
   venue: Bioinspiration & Biomimetics, 2025
   awards: Journal

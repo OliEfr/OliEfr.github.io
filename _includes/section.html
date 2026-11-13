@@ -50,68 +50,74 @@
             {% endfor %}
       </div>
       {% capture links %}
-      <div class="publication-links buttons field has-addons">
+      <div class="publication-links">
         {% if publication.project_page %}
-        <a class="external-link button is-small is-ghost" href="{{ publication.project_page }}">
+        <a class="external-link link-chip" href="{{ publication.project_page }}">
           <span class="icon"><i class="fas fa-globe-asia"></i></span>
           <span>Project Page</span>
         </a>
         {% endif %}
         {% if publication.paper %}
-        <a class="external-link button is-small is-ghost" href="{{ publication.paper }}">
+        <a class="external-link link-chip" href="{{ publication.paper }}">
           <span class="icon"><i class="fa-regular fa-newspaper"></i></span>
           <span>Paper</span>
         </a>
         {% endif %}
         {% if publication.video %}
-        <a class="external-link button is-small is-ghost" href="{{ publication.video }}">
+        <a class="external-link link-chip" href="{{ publication.video }}">
           <span class="icon"><i class="fa-solid fa-film"></i></span>
           <span>Video</span>
         </a>
         {% endif %}
         {% if publication.pdf %}
-        <a class="external-link button is-small is-ghost"
+        <a class="external-link link-chip"
           href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
           <span class="icon"><i class="fas fa-file-pdf"></i></span>
           <span>PDF</span>
         </a>
         {% endif %}
         {% if publication.arxiv %}
-        <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
+        <a class="external-link link-chip" href="https://arxiv.org/abs/{{ publication.arxiv }}">
           <span class="icon"><i class="ai ai-arxiv"></i></span>
           <span>arXiv</span>
         </a>
         {% endif %}
         {% if publication.webpage %}
-            <a class="external-link button is-small is-ghost" href="{{ publication.webpage }}">
+            <a class="external-link link-chip" href="{{ publication.webpage }}">
             <span class="icon"><i class="fas fa-globe-asia"></i></span>
             <span>Webpage</span>
             </a>
             {% endif %}
         {% if publication.github %}
-        <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
+        <a class="external-link link-chip" href="https://github.com/{{ publication.github }}">
           <span class="icon"><i class="fa fab fa-github"></i></span>
           <span>Code</span>
         </a>
         {% endif %}
       </div>
       {% endcapture %}
-      {% if publication.description_simple %}
+      {% assign has_links = false %}
+      {% if links contains 'href' %}{% assign has_links = true %}{% endif %}
+      {% if publication.description or publication.description_simple or has_links %}
       <div class="description-card">
+        {% if publication.description_simple or has_links %}
         <div class="description-card-header">
+          {% if publication.description_simple %}
           <div class="description-toggle">
             <button class="is-active" data-mode="simple">Simple</button>
             <button data-mode="expert">Expert</button>
           </div>
-          {{ links }}
+          {% endif %}
+          {% if has_links %}{{ links }}{% endif %}
         </div>
-      {% endif %}
-      <p class="publication-description {% if publication.description_simple %}description-expert{% endif %}">{{ publication.description | markdownify | remove: '<p>' | remove: '</p>'}}</p>
-      {% if publication.description_simple %}
+        {% endif %}
+        {% if publication.description %}
+        <p class="publication-description {% if publication.description_simple %}description-expert{% endif %}">{{ publication.description | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+        {% endif %}
+        {% if publication.description_simple %}
         <p class="publication-description description-simple">{{ publication.description_simple | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+        {% endif %}
       </div>
-      {% else %}
-      {{ links }}
       {% endif %}
     </div>
   </div>

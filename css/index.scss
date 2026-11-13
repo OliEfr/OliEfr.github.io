@@ -7,14 +7,34 @@
 $warm-page: #faf9f5;
 $warm-surface: #f3f1ea; // navbar, footer, light buttons
 $warm-line: #e8e4d9;    // dividers and hover states
+$warm-nav: #f4eee1;     // navbar tint, a touch warmer than the surface
+
+// One shape language for the whole page: white cards on the warm page, pills for anything clickable.
+$radius-card: 0.5rem;
+$radius-pill: 9999px;
+$shadow-card: 0 1px 4px rgba(0, 0, 0, 0.08);
+$shadow-pill: 0 1px 3px rgba(0, 0, 0, 0.1);
 
 html {
     background-color: $warm-page;
 }
 
-.navbar.is-light,
 .footer {
     background-color: $warm-surface;
+}
+
+// Floating navbar: a rounded, slightly see-through bar spanning the page.
+// The radius is half the bar's height, so it reads as a pill but stays sane when the mobile menu opens.
+.navbar.is-light.is-fixed-top {
+    top: 0.5rem;
+    width: calc(100% - 1.5rem);
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    border-radius: 1.625rem;
+    background-color: rgba($warm-nav, 0.75);
+    -webkit-backdrop-filter: blur(12px) saturate(1.5);
+    backdrop-filter: blur(12px) saturate(1.5);
+    box-shadow: $shadow-card;
 }
 
 .navbar.is-light .navbar-end > a.navbar-item:hover,
@@ -22,22 +42,78 @@ html {
     background-color: $warm-line;
 }
 
+// The opened mobile menu is part of the same glass bar.
 @media screen and (max-width: 1023px) {
     .navbar-menu {
-        background-color: $warm-surface;
+        background-color: transparent;
+        box-shadow: none;
     }
 }
 
+// Hero buttons: white pills, like the active side of the Simple/Expert switch.
 .button.is-light {
-    background-color: $warm-surface;
+    border-radius: $radius-pill;
+    background-color: #fff;
+    box-shadow: $shadow-pill;
 
     &:hover {
-        background-color: $warm-line;
+        background-color: $warm-surface;
     }
 }
 
 hr {
     background-color: $warm-line;
+}
+
+// The dividers and the intro span the same column as the sections below.
+.hr {
+    padding: 0 1.5rem;
+}
+
+.hero-body.container {
+    padding: 3rem 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-body.container.is-max-desktop {
+        max-width: calc(960px + 3rem);
+    }
+}
+
+// Navigation entries are pills too, instead of full-height blocks.
+@media screen and (min-width: 1024px) {
+    .navbar.is-light .navbar-end {
+        align-items: center;
+        gap: 0.25rem;
+
+        > a.navbar-item {
+            padding: 0.25rem 0.9rem;
+            border-radius: $radius-pill;
+        }
+    }
+}
+
+// Small pill link, used for the paper/project/code links of every entry.
+.link-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.2em 0.8em;
+    border-radius: $radius-pill;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: #333 !important;
+    background-color: $warm-surface;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: $warm-line;
+    }
+
+    .icon {
+        width: 1em;
+        height: 1em;
+    }
 }
 
 .title {
@@ -50,7 +126,8 @@ hr {
 }
 
 .portrait {
-    border-radius: 2%;
+    border-radius: $radius-card;
+    box-shadow: $shadow-card;
     overflow: hidden;
 
     img { transform: scale(1.2); }
@@ -101,8 +178,9 @@ hr {
         min-height: 120px;
         resize: vertical;
         overflow: hidden;
-        border: 1px solid #dbdbdb;
-        border-radius: 4px;
+        background-color: #fff;
+        border-radius: $radius-card;
+        box-shadow: $shadow-card;
 
         iframe {
             display: block;
@@ -192,7 +270,7 @@ hr {
     // Keep every thumbnail a square box regardless of how tall the text column
     // gets, so images/videos are never stretched or padded with whitespace.
     .publication-image {
-        border-radius: 0.5rem;
+        border-radius: $radius-card;
         width: 100%;
         height: auto;
         aspect-ratio: 1 / 1;
@@ -201,7 +279,7 @@ hr {
 
         // Entries without an image keep the empty box, but without a shadow.
         &.has-image {
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            box-shadow: $shadow-card;
         }
 
         img,
@@ -212,8 +290,8 @@ hr {
         }
 
         .image-border {
-            border: 1px solid #707070;
-            border-radius: 0.5rem;
+            border: 1px solid $warm-line;
+            border-radius: $radius-card;
         }
 
     }
@@ -241,17 +319,18 @@ hr {
     }
 
     .publication-links {
-        margin: 0 !important;
-        margin-top: 0.5em !important;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35em;
     }
 
-    // White card holding the Expert/Simple switch and the description it swaps.
+    // White card holding every entry's description, with the Expert/Simple switch (if any) and its links on top.
     .description-card {
-        margin: 0.5em 0;
+        margin: 0.5em 0 0;
         padding: 0.6em 0.9em 0.7em;
         background-color: #fff;
-        border-radius: 0.5rem;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+        border-radius: $radius-card;
+        box-shadow: $shadow-card;
 
         // Switch on the left, links on the right; they wrap on narrow screens.
         .description-card-header {
@@ -262,16 +341,18 @@ hr {
             gap: 0.25em 0.75em;
             margin-bottom: 0.4em;
 
+            // Entries with links but no text: the header is the whole card.
+            &:last-child {
+                margin-bottom: 0;
+            }
+
             .description-toggle {
                 margin-bottom: 0;
             }
 
+            // Links stay on the right even when there is no switch beside them.
             .publication-links {
-                margin: 0 !important;
-
-                .button {
-                    margin-bottom: 0;
-                }
+                margin-left: auto;
             }
         }
 
@@ -288,12 +369,12 @@ hr {
     width: fit-content;
     margin-bottom: 0.4em;
     padding: 0.2em;
-    border-radius: 1em;
+    border-radius: $radius-pill;
     background-color: $warm-surface;
 
     button {
         border: none;
-        border-radius: 1em;
+        border-radius: $radius-pill;
         padding: 0.2em 0.8em;
         font: inherit;
         font-size: 0.75rem;
@@ -305,7 +386,7 @@ hr {
             background-color: #fff;
             color: #000;
             font-weight: 600;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: $shadow-pill;
         }
     }
 }

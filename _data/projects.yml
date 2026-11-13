@@ -17,7 +17,7 @@
     - sq
 - id: sexual_healing_guitar
   title: "Scores and Tabs for Sexual Healing, Marvin Gaye, 1982"
-  description: "First Scores and Tabs for the Guitars in Sexual Healing on the Internet."
+  description: "Who doesn't want to jam along this song? First Scores and Tabs for the Guitars in Sexual Healing on the Internet."
   webpage: https://oliver.hausdoerfer.de/sexual_healing_guitar
   image: sexual_healing.png
   venue: Project, 2025
@@ -25,7 +25,7 @@
     - hausdörfer
 - id: lego
   title: "Robotic Manipulator Builds Lego"
-  description: "A Franka Emika FR3 robotic manipulator builds lego structures."
+  description: "A Franka Emika FR3 robotic manipulator builds lego structures, using camera calibration, 6d pose estimation, and scripted motions."
   video: https://drive.google.com/file/d/1N1CvrnQH8WayqLru4apPA0yI7BwdBI1Q/view?usp=sharing
   image: lego_before.jpg
   venue: Student Project, 2024
@@ -39,7 +39,7 @@
     - schuck
 - venue: Project, 2024
   title: Analyzing contributions to robotic conferences
-  description:
+  description: "I analyzed the contributions for robotics conferences. The data is from [ras.papercept.net](https://ras.papercept.net). The project's source code and raw data is [here](https://github.com/OliEfr/ICRA_2024_analyzer). The project got featured in various social media [posts](https://www.linkedin.com/posts/ut-texas-robotics_icra2025-activity-7329236498334003201-tTmu?utm_source=share&utm_medium=member_desktop&rcm=ACoAACS_0ocBmyq6fYynuvsNzpZNVQH22nqoAfU), [posts](https://www.linkedin.com/posts/mirmi-tum_icra2025-robotics-ai-activity-7328700616355016704-v8qH?utm_source=share&utm_medium=member_desktop&rcm=ACoAACS_0ocBmyq6fYynuvsNzpZNVQH22nqoAfU), [posts](https://www.mirmi.tum.de/mirmi/aktuelles/article/robotik-gemeinsam-vorantreiben-treffen-sie-mirmi-auf-der-icra-2025/)."
   webpage: https://oliver.hausdoerfer.de/robotics_conferences_analyzed
   image: Analyzing_robotics_conferences.png
   authors:
@@ -47,7 +47,7 @@
 - id: tufast
   venue: Project, 2021
   title: TUfast TU Dresden
-  description: Teaching and studying tool for TU Dresden with 3500 users. Awarded with the german [Digital Changemaker Award](https://www.stifterverband.org/digitalchangemaker-accelerator).
+  description: Teaching and studying tool for TU Dresden with more than 4000 users. Awarded with the german [Digital Changemaker Award](https://www.stifterverband.org/digitalchangemaker-accelerator).
   webpage: https://tu-fast.de/
   image: TUfast.png
   authors:
